@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of John Doe, a Web Developer.">
+    <meta name="keywords" content="portfolio, web developer, projects, skills, contact, resume, blog">
+    <meta name="author" content="John Doe">
+    <title>John Doe's Portfolio</title>
+    <link rel="stylesheet" href="styles4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMsjZ6q6NxkK5Xg4xjW0OjD+6pGFVD8Gbrl/3U3" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Background Video -->
+    <video autoplay muted loop id="bg-video">
+        <source src="https://player.vimeo.com/external/307820324.sd.mp4?s=52e9bcaf5193e77b5ad5f5f2062026182de6601c&profile_id=139&oauth2_token_id=57447761" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <header>
+        <nav>
+            <div class="logo">John Doe</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm John Doe, a Web Developer specializing in creating dynamic and beautiful web pages. I'm dedicated to continuous learning and implementing the latest technologies in web development.</p>
+            <a href="#projects" class="cta">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>With over 5 years of experience in web development, I have honed my skills in both front-end and back-end technologies. My journey started with a fascination for coding and has evolved into a career focused on delivering high-quality web solutions. I believe in the power of clean, efficient code and the importance of user-centric design.</p>
+            <p>I graduated with a degree in Computer Science from XYZ University and have since worked on a variety of projects ranging from small business websites to large-scale web applications. When I'm not coding, I enjoy hiking, photography, and exploring new technologies.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="content">
+            <h2>My Projects</h2>
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio website showcasing my projects and skills. Built with HTML, CSS, and JavaScript.</p>
+                <a href="https://example.com" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>E-commerce Platform</h3>
+                <p>An online store with a complete shopping cart and payment gateway integration. Developed using React and Node.js.</p>
+                <a href="https://example.com" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Blog Application</h3>
+                <p>A fully functional blog application with user authentication and content management. Created with Django and React.</p>
+                <a href="https://example.com" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Social Media Dashboard</h3>
+                <p>A responsive dashboard to manage multiple social media accounts, built with Vue.js and Firebase.</p>
+                <a href="https://example.com" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="content">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML <span class="skill-level">Expert</span></li>
+                <li>CSS <span class="skill-level">Expert</span></li>
+                <li>JavaScript <span class="skill-level">Advanced</span></li>
+                <li>React <span class="skill-level">Advanced</span></li>
+                <li>Node.js <span class="skill-level">Intermediate</span></li>
+                <li>Express <span class="skill-level">Intermediate</span></li>
+                <li>MongoDB <span class="skill-level">Intermediate</span></li>
+                <li>Git <span class="skill-level">Advanced</span></li>
+            </ul>
+        </div>
+    </section>
+
+    
+
+    <section id="resume">
+        <div class="content">
+            <h2>Resume</h2>
+            <p>Download my resume to learn more about my professional journey and accomplishments.</p>
+            <a href="resume.pdf" target="_blank" class="cta">Download Resume</a>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="content">
+            <h2>Blog</h2>
+            <p>Read my latest blog posts on web development, technology trends, and coding tips.</p>
+            <a href="https://example.com/blog" target="_blank" class="cta">Visit My Blog</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="content">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+     
+    <footer>
+        <div class="content">
+            <p>&copy; 2024 John Doe. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://twitter.com/johndoe" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com/in/johndoe" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/johndoe" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+   
+    
+    <video autoplay muted loop class="background-video">
+        <source src="bgvideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+
+    <!-- JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
